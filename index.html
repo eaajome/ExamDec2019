@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
 
     <title>Hello, world!</title>
@@ -16,21 +15,12 @@
 
 <body>
     <header>
-        <div class="navWrapper">
-        <nav>
 
-            <a class="logo" href="">
-                <figure>
-                    <img src="img/DET ENDELIGE LOGO-light.png" alt="">
-                </figure>
+<!--         <div class="navWrapperMobile">
+                <nav class="navbar">
+            <div class="linksMobile">
 
-            </a>
-
-
-
-            <div class="links">
-
-                <a class="" href="#">Bestil</a>
+                <a class="active" href="#">Bestil</a>
 
 
                 <a class="" href="#">Om os</a>
@@ -40,15 +30,83 @@
 
 
                 <a class="shopping-cart" href="#">
-                     Kurv
-                <figure>
-                    <img src="img/shopping-cart.svg" alt="">
-                </figure>
+                    Kurv
+                    <figure>
+                        <img src="img/shopping-cart.svg" alt="">
+                    </figure>
                 </a>
             </div>
 
-        </nav>
-    </div>
+            <div>
+                <a href=""><img src="img/burgerMenuIcon.png" alt=""></a>
+            </div>
+
+            <div>
+                <a href="">
+                    <figure>
+                        <img src="img/DET ENDELIGE LOGO-light.png" alt="">
+                    </figure>
+                </a>
+            </div>
+            
+    </nav>
+        </div> -->
+
+        <nav class="navbar navbar-dark navWrapperMobile">
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                 <img src="img/burgerMenuIcon.png" alt="">
+                </button>
+                <a class="navbar-brand" href="#"><img src="img/DET ENDELIGE LOGO-light.png" alt=""></a>
+                <div class="mr-sm-2"><img src="img/shopping-cart.svg" alt=""></div>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">Features</a>
+                    <a class="nav-item nav-link" href="#">Pricing</a>
+                    <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </div>
+                </div>
+              </nav>
+
+
+
+
+
+        <div class="navWrapperDesktop">
+            <nav>
+
+                <a class="logo" href="">
+                    <figure>
+                        <img src="img/DET ENDELIGE LOGO-light.png" alt="">
+                    </figure>
+                </a>
+
+
+
+                <div class="linksDesktop">
+
+                    <a class="active" href="#">Bestil</a>
+
+
+                    <a class="" href="#">Om os</a>
+
+
+                    <a class="" href="#">Find køkken</a>
+
+
+                    <a class="shopping-cart" href="#">
+                        Kurv
+                        <figure>
+                            <img src="img/shopping-cart.svg" alt="">
+                        </figure>
+                    </a>
+                </div>
+
+            </nav>
+        </div>
+
+
     </header>
     <main></main>
     <footer></footer>

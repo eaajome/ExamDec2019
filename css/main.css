@@ -12,7 +12,6 @@
     src: ("Intro.otf");
 }
 
-
 figure {
     width: 50%;
 }
@@ -21,50 +20,94 @@ figure img {
     width: 100%;
 }
 
-.navWrapper{
-  width:100%;
-border:solid;
-background-color: #382F24;
+.navWrapperDesktop {
+    display: none;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width:1200px;
+.navWrapperMobile{
     background-color: #382F24;
+    display:flex;
+}
+
+.navbar-toggler{
+    border:none;
+    padding:0;
+}
+
+.navbar-toggler img{
+    width:32px;
+}
+.navbar-brand{
+    padding:0;
     margin:0 auto;
-    padding: 0 5em;
-    font-size:0.7em;
 }
 
-nav a {
-    text-decoration: none;
-    color: white;
+.navbar-brand img{
+    width:7em;
+}
+.mr-sm-2 img{
+    width:32px;
 }
 
-.logo figure {
-    width: 12em;
-    margin: auto 0;
-    padding: 1em 0;
-}
 
-.links {
-    display: flex;
-    width: 30%;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.shopping-cart {
-    display: flex;
-    align-items: center;
-    padding: 0.75em 1em;
-    background-color: #514333;
-}
 
-.shopping-cart figure {
-    width: 1.5em;
-    margin: auto 0;
-    margin-left: 0.5em;
+/* 1024px Laptop */
+@media only screen and (min-width: 1024px) {
+    .navWrapperMobile {
+        display: none;
+    }
+
+    .navWrapperDesktop {
+        display:block;
+        width: 100%;
+        background-color: #382F24;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        background-color: #382F24;
+        margin: 0 auto;
+        padding: 0 5em;
+        font-size: 0.8em;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+    }
+
+    nav a:hover {
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .logo figure {
+        width: 12em;
+        margin: auto 0;
+        padding: 1em 0;
+    }
+
+    .linksDesktop {
+        display: flex;
+        width: 30em;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .shopping-cart {
+        display: flex;
+        align-items: center;
+        padding: 0.75em 1em;
+        background-color: #514333;
+    }
+
+    .shopping-cart figure {
+        width: 1.5em;
+        margin: auto 0;
+        margin-left: 0.5em;
+    }
+
 }
