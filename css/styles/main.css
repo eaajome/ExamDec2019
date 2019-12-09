@@ -1,0 +1,45 @@
+*{
+    padding:0;
+    margin:0;
+
+    font-family: 'Intro';
+        font-weight:normal;
+        font-style:normal;
+}
+
+@font-face {
+    font-family: "Intro";
+    src:("Intro.otf");
+    }
+
+
+nav{
+    display:flex;
+    align-items:center;
+    width:100%;
+    border:solid;
+    background-color:#382F24;
+    padding:0 5em;
+}
+
+figure{
+    width:25%;
+    margin:auto 0;
+}
+
+figure img{
+    width:100%;
+}
+
+.links{
+    display:flex;
+    width:50%;
+    justify-content: space-between;
+    align-items:center;
+
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+}
