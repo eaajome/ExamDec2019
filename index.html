@@ -9,50 +9,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 
     <title>Hello, world!</title>
 </head>
 
 <body>
     <header>
-
-<!--         <div class="navWrapperMobile">
-                <nav class="navbar">
-            <div class="linksMobile">
-
-                <a class="active" href="#">Bestil</a>
-
-
-                <a class="" href="#">Om os</a>
-
-
-                <a class="" href="#">Find køkken</a>
-
-
-                <a class="shopping-cart" href="#">
-                    Kurv
-                    <figure>
-                        <img src="img/shopping-cart.svg" alt="">
-                    </figure>
-                </a>
-            </div>
-
-            <div>
-                <a href=""><img src="img/burgerMenuIcon.png" alt=""></a>
-            </div>
-
-            <div>
-                <a href="">
-                    <figure>
-                        <img src="img/DET ENDELIGE LOGO-light.png" alt="">
-                    </figure>
-                </a>
-            </div>
-            
-    </nav>
-        </div> -->
-
-        <nav class="navbar navbar-dark navWrapperMobile">
+        <nav class="navbar navbar-dark wrapperMobile">
                 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                  <img src="img/burgerMenuIcon.png" alt="">
@@ -70,10 +34,7 @@
               </nav>
 
 
-
-
-
-        <div class="navWrapperDesktop">
+        <div class="wrapperDesktop">
             <nav>
 
                 <a class="logo" href="">
@@ -108,8 +69,238 @@
 
 
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+
+            <figure class="textOverImg banner">
+                <img src="img/forsidemoerk.jpg" alt="">
+                <figcaption class="centered">
+                        <h1 class="display-5">Ægget & Skægget</h1>
+                        <h2 class="display-6">Alle retter 55,-</p>
+                        <a class="btn btn-primary btn-lg banner-btn" href="#deck1" role="button">Bestil nu</a>
+                </figcaption>
+            </figure>
+
+    <div class="deckWrapper">
+            <div class="card-deck" id="deck1">
+                    <div class="card card-title">
+                      <div class="card-body card-body-title">
+                        <h4 class="card-title">Dem med Kartoffelmos</h4>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="img/svinekaeber.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Braiserede svinekæber</h5>
+                        <p class="card-text">i mørk øl med glaserede gulerødder og selleri.</p>
+                       
+                        <a class="btn btn-primary btn-sm shopping-cart add-cart" href="#" role="button">
+                            Tilføj
+                            <figure>
+                                <img src="img/shopping-cart.svg" alt="">
+                            </figure>
+                        </a>
+
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="img/Bøf-Stroganoff-medmoshehe.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Bøf braise stroganoff</h5>
+                        <p class="card-text">med ristede champignoner og persille.</p>
+
+                        <a class="btn btn-primary btn-sm shopping-cart add-cart" href="#" role="button">
+                                Tilføj
+                                <figure>
+                                    <img src="img/shopping-cart.svg" alt="">
+                                </figure>
+                            </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <hr>
+
+                  <div class="card-deck">
+                        <div class="card card-title">
+                          <div class="card-body card-body-title">
+                            <h4 class="card-title">Dem med Ris</h4>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="img/Boller-i-karry.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Boller i Karry</h5>
+                            <p class="card-text">med æbler, rodfrugter og hjemmelavet chutney.</p>
+
+                            <a class="btn btn-primary btn-sm shopping-cart add-cart" href="#" role="button">
+                                    Tilføj
+                                    <figure>
+                                        <img src="img/shopping-cart.svg" alt="">
+                                    </figure>
+                                </a>
+                          </div>
+                        </div>
+
+                        <div class="card">
+                          <img src="img/coq-au-vin.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Coq au Vin</h5>
+                            <p class="card-text">Unghane baseret i hvidvin med små løg og urter.</p>
+                           
+                            <a class="btn btn-primary btn-sm shopping-cart add-cart" href="#" role="button">
+                                    Tilføj
+                                    <figure>
+                                        <img src="img/shopping-cart.svg" alt="">
+                                    </figure>
+                                </a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <hr>
+
+                      <div class="card-deck">
+                            <div class="card card-title">
+                              <div class="card-body card-body-title">
+                                <h4 class="card-title">Dem med Pasta</h4>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <img src="img/pastacabonara.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Pasta Carbonara</h5>
+                                <p class="card-text">grove tern af stegt, røget flæsk i cremet sauce.</p>
+                                  
+                                <a class="btn btn-primary btn-sm shopping-cart add-cart" href="#" role="button">
+                                        Tilføj
+                                        <figure>
+                                            <img src="img/shopping-cart.svg" alt="">
+                                        </figure>
+                                    </a>
+                              </div>
+                            </div>
+
+                            <div class="card">
+                              <img src="img/pastabolognese.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Pasta Bolognese</h5>
+                                <p class="card-text">Oksekød, tomat og rodfrugter hertil friskreven parmesan.</p>
+                               
+                                <a class="btn btn-primary btn-sm shopping-cart add-cart" href="#" role="button">
+                                        Tilføj
+                                        <figure>
+                                            <img src="img/shopping-cart.svg" alt="">
+                                        </figure>
+                                    </a>
+                              </div>
+                            </div>
+                          </div>
+
+                          <hr>
+
+                          <div class="card-deck">
+                                <div class="card card-title">
+                                  <div class="card-body card-body-title">
+                                    <h4 class="card-title">Klassikere</h4>
+                                  </div>
+                                </div>
+                                <div class="card">
+                                  <img src="img/svensk-poelseret.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Svensk Pølseret</h5>
+                                    <p class="card-text">Kartofler, pølser og den gode paprikasauce.</p>
+                                      
+                                    <a class="btn btn-primary btn-sm shopping-cart add-cart" href="#" role="button">
+                                            Tilføj
+                                            <figure>
+                                                <img src="img/shopping-cart.svg" alt="">
+                                            </figure>
+                                        </a>
+                                  </div>
+                                </div>
+
+                                <div class="card">
+                                  <img src="img/Tarteletter.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Tarteletter</h5>
+                                    <p class="card-text">Høns i asparges serveret i sprøde, hjemmelavede skaller.</p>
+                                    
+                                    <a class="btn btn-primary btn-sm shopping-cart add-cart" href="#" role="button">
+                                            Tilføj
+                                            <figure>
+                                                <img src="img/shopping-cart.svg" alt="">
+                                            </figure>
+                                        </a>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <hr>
+
+                              <div class="card-deck">
+                                    <div class="card card-title">
+                                      <div class="card-body card-body-title">
+                                        <h4 class="card-title">Vegetar</h4>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <img src="img/kikaertegrydevegetar.jpg" class="card-img-top" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Kikærtegryde</h5>
+                                        <p class="card-text">med linser, kokosmælk og frisk persille.</p>
+                                         
+                                        <a class="btn btn-primary btn-sm shopping-cart add-cart" href="#" role="button">
+                                                Tilføj
+                                                <figure>
+                                                    <img src="img/shopping-cart.svg" alt="">
+                                                </figure>
+                                            </a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                            <img src="img/quinoa-salat-edamame-bonner.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                              <h5 class="card-title">Quinoa Salat</h5>
+                                              <p class="card-text">med radiser, mynte og edamame bønner.</p>
+                                              
+                                              <a class="btn btn-primary btn-sm shopping-cart add-cart" href="#" role="button">
+                                                    Tilføj
+                                                    <figure>
+                                                        <img src="img/shopping-cart.svg" alt="">
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                          </div>
+                                  </div>
+                    </div>
+    </main>
+    <footer>
+            <div class="card-footer">
+                    <div class="card-body">
+                      <h5 class="card-title">Sociale medier</h5>
+                      <ul class="card-text">
+                          <li>Facebook</li>
+                          <li>Instagram</li>
+                          <li>Twitter</li>
+                          <li></li>
+                      </ul>
+                    </div>
+
+                    <div class="card-body">
+                            <h5 class="card-title">Kontaktoplysninger</h5>
+                            <ul class="card-text">
+                                <li>email</li>
+                                <li>number</li>
+                            </ul>
+                          </div>
+
+                         <div class="card-body">
+                      <h5 class="card-title">Om Ægget & Skægget</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
