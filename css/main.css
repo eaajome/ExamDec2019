@@ -1,15 +1,17 @@
 * {
     padding: 0;
     margin: 0;
-
-    font-family: 'Intro';
-    font-weight: normal;
-    font-style: normal;
 }
 
 @font-face {
-    font-family: "Intro";
-    src: url("fonts/Intro.otf") format("otf");
+    font-family: Intro;
+    src: url("Intro.otf");
+}
+
+body{
+    font-family: 'Intro';
+    font-weight: normal;
+    font-style: normal;
 }
 
 figure {
@@ -355,7 +357,7 @@ form textarea {
 
 
 /*-----------------------------Joshua--------------------------------------------*/
-main{
+.mainCenter{
     width:80%;
     margin:5em auto;
 }
@@ -400,7 +402,7 @@ margin:0 auto 1em auto;
 
 /*contactInfo + payment laptop*/
 @media only screen and (min-width: 1024px) {
-    main{
+    .mainCenter{
         width:30%;
       
     }
