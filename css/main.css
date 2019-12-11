@@ -347,9 +347,233 @@ form textarea {
 
 /*------------------------------------------Mike-------------------------------------------*/
 
+.card-img-top1
+{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border: solid;
+    margin-left: 2em;
+    
+}
+
+.imgcontainer
+{
+   
+
+    
+}
+.imgcontainer img
+{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    
+}
+
+.textcontainer
+{
+    
+    width: 100%;
+    text-align: left;
+    padding: 0 1em;
+    
+}
+
+.basketWrapper h1
+{
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.basketWrapper .price
+{
+    text-align: right;
+    margin-right: 1em;  
+}
 
 
+.pay-button {
+    
+    justify-content: center;
+    padding: 0.75em;
+    background-color: #67af57;
+    border: none;
+    width: 90%;
+    margin: 2em auto;
+    
+}
+
+.flex-container {
+    display: flex;
+    margin: 0 1em;
+  }
+  .flex-container > div p {
 
 
+  }
+@media only screen and (min-width: 768px)
+{
+    .card-img-top1
+    {
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        border: solid;
+        margin-left: 2em;
+        
+    }
+    
+    .imgcontainer
+    {
+       
+    
+        
+    }
+    .imgcontainer img
+    {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border: solid;
+        
+    }
+    
+    .textcontainer
+    {
+        
+        width: 100%;
+        text-align: left;
+        padding: 0 1em;
+        
+    }
+    .basketWrapper
+    {
+        max-width: 1200px;
+        margin: 5em auto;
+    }
+    .basketWrapper h1
+    {
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+    .basketWrapper .price
+    {
+        text-align: right;
+        margin-right: 1em;  
+    }
+    
+    
+    .pay-button {
+        text-align: right;
+        padding: 0.75em;
+        background-color: #67af57;
+        border: none;
+        width: 30%;
+        margin: 2em 1em 2em auto;
+        
+    }
+    .paycontainer
+    {
+        width: 100%;
+        
+        
+    }
+    
+    .flex-container {
+        display: flex;
+        margin: 0 1em;
+      }
+      .flex-container > div p {
+    
+    
+      }
+}
 
+@media only screen and (min-width: 1024px)
+
+{
+    .card-img-top1
+    {
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        border: solid;
+        margin-left: 2em;
+        
+    }
+    
+    .imgcontainer
+    {
+       
+    
+        
+    }
+    .imgcontainer img
+    {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border: solid;
+        
+    }
+    
+    .textcontainer
+    {
+        
+        width: 100%;
+        text-align: left;
+        padding: 0 1em;
+        display: flex;
+        
+        
+    }
+    
+    .textcontainer .lead:first-of-type
+    {
+margin-right: 1em;
+    }
+
+    .basketWrapper
+    {
+        max-width: 1200px;
+        margin: 5em auto;
+    }
+
+    .basketWrapper h1
+    {
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+    .basketWrapper .price
+    {
+        text-align: right;
+        margin-right: 1em;  
+    }
+    
+    
+    .pay-button {
+        text-align: right;
+        padding: 0.75em;
+        background-color: #67af57;
+        border: none;
+        width: 30%;
+        margin: 2em 1em 2em auto;
+        
+    }
+    .paycontainer
+    {
+        width: 100%;
+        
+        
+    }
+    
+    .flex-container {
+        display: flex;
+        margin: 0 1em;
+      }
+      .flex-container > div p {
+    
+    
+      }
+}
 /*-----------------------------Joshua--------------------------------------------*/
