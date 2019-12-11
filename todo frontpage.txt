@@ -5,3 +5,8 @@ lead on both, no button on mobile
 jquery, button animation scroll to first deck
 
 homepage tilføj button hover change
+
+fix om os size
+
+sticky header
+
