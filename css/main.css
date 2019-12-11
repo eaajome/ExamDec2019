@@ -20,6 +20,10 @@ figure img {
     width: 100%;
 }
 
+.broedtekst {
+    font-family: "Open Sans", sans-serif;
+}
+
 .wrapperDesktop {
     display: none;
 }
@@ -68,9 +72,7 @@ figure img {
 }
 
 
-
-
-/* 1024px Laptop */
+/* 1024px Laptop navigation*/
 @media only screen and (min-width: 1024px) {
     .wrapperMobile {
         display: none;
@@ -119,11 +121,65 @@ figure img {
         justify-content: space-between;
         align-items: center;
     }
-
-
 }
 
-/* content */
+/*footer*/
+
+footer {
+    line-height: 2em;
+    background-color: #202020;
+    text-align: left;
+}
+
+footer .card-text,
+footer .card-text li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+}
+
+footer .card-title {
+    text-align: left;
+}
+
+/*1024px footer Laptop*/
+@media only screen and (min-width: 1024px) {
+    .card-title {
+        border: none;
+    }
+
+    .card-body-title {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .card-footer {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        background-color: #202020;
+    }
+
+    .card-footer .card-body {
+        width: calc(100%/3);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------Other Content---------------------------------------------*/
+
+
+
+/* -------------------homepage content--------------------- */
 /* banner */
 .banner {
     width: 100%;
@@ -131,26 +187,26 @@ figure img {
 
 }
 
-.display-5{
-    font-size:1.5em;
-    }
+.display-5 {
+    font-size: 1.5em;
+}
 
-    .display-6{
-        font-size:1em;
-    }
+.display-6 {
+    font-size: 1em;
+}
 
-    .banner-btn{
-        display:none;
-    }
+.banner-btn {
+    display: none;
+}
 
-    .card-title{
+.card-title {
     text-align: center;
-    font-size:1em;
-    }
+    font-size: 1em;
+}
 
-    .card{
-        border:none;
-    }
+.card {
+    border: none;
+}
 
 
 
@@ -198,11 +254,6 @@ hr {
     margin-top: 2em;
 }
 
-footer {
-    background-color: black;
-    color: white;
-}
-
 main .card-text,
 main .card-text li {
     font-family: 'Open Sans', sans-serif;
@@ -220,9 +271,9 @@ main .card-text li {
 /* banner */
 @media only screen and (min-width: 1024px) {
 
-    .banner-btn{
-        display:block;
-        
+    .banner-btn {
+        display: block;
+
     }
 
     .deckWrapper {
@@ -230,59 +281,13 @@ main .card-text li {
         margin: 5em auto;
     }
 
-    .card{
-        border:lightgray 1px solid;
+    .card {
+        border: lightgray 1px solid;
     }
-
-    .card-title {
-        border: none;
-    }
-
-    .card-body-title {
-        display: flex;
-        align-items: center;
-
-    }
-    .card-footer {
-        max-width: 1200px;
-        margin: 0 auto;
-        display: flex;
-        background-color: #202020;
-    }
-    
-    
-.card-footer .card-body {
-    width: calc(100%/3);
-}
-
 }
 
 
-
-
-
-.parallax {
-    perspective: 1px;
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-}
-
-.parallax__layer {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
-.parallax__layer--base {
-    transform: translateZ(0);
-}
-
-.parallax__layer--back {
-    transform: translateZ(-1px);
-}
+/*-----------------------------Jacob--------------------------------------------*/
 
 .container-xs {
     max-width: 840px;
@@ -291,28 +296,9 @@ main .card-text li {
     line-height: 2.2em;
     font-size: 0.9em;
 }
+
 .container-xs h2 {
-margin-top: 1em;
-}
-
-.broedtekst {
-    font-family: "Open Sans", sans-serif;
-}
-
-footer {
-    line-height: 2em;
-    background-color: #202020;
-    text-align: left;
-}
-
-footer .card-text,
-footer .card-text li {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.9em;
-}
-
-footer .card-title {
-text-align: left;
+    margin-top: 1em;
 }
 
 .findus {
@@ -321,8 +307,8 @@ text-align: left;
     padding: 0 1em;
 }
 
-.findus form{
-margin-top: 2em;
+.findus form {
+    margin-top: 2em;
 }
 
 iframe {
@@ -345,16 +331,25 @@ form textarea {
 }
 
 .confirmed h1 {
-font-size: 1.2em;
-margin: 2em;
+    font-size: 1.2em;
+    margin: 2em;
 }
 
 .confirmed a {
     width: 90%;
     max-width: 300px;
-    }
+}
 
 .confirmed img {
-    width: 60%;;
+    width: 60%;
     max-width: 200px;
-    }
+}
+
+/*------------------------------------------Mike-------------------------------------------*/
+
+
+
+
+
+
+/*-----------------------------Joshua--------------------------------------------*/
