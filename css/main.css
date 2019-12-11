@@ -4,12 +4,12 @@
 }
 
 @font-face {
-    font-family: Intro;
-    src: url("Intro.otf");
+    font-family: "Intro";
+    src: url("fonts/Intro.otf");
 }
 
 body{
-    font-family: Intro;
+    font-family: "Intro";
     font-weight: normal;
     font-style: normal;
 }
