@@ -355,16 +355,59 @@ form textarea {
 
 
 /*-----------------------------Joshua--------------------------------------------*/
-#payment{
-    width:90%;
+main{
+    width:80%;
     margin:5em auto;
+}
+
+.location{
+    text-align:center;
+}
+
+#contactInfo label{
+margin-top:2em;
+}
+
+
+.contactInfoBtn{
+    background-color:green;
+    margin:auto;
+    width:100%;
+    height:75px;
+    font-size:1.5em;
+    color:white;
+    cursor:pointer;
 }
 
 #payment h2{
     text-align:center;
-border:solid;
-width:50%;
 margin:0 auto 1em auto;
-white-space: normal;
-overflow: hidden;
+}
+
+.expire{
+    display:flex;
+}
+
+.paymentBtn{
+    background-color:green;
+    margin-top:16em;
+    width:100%;
+    height:75px;
+    font-size:1.5em;
+    color:white;
+    cursor:pointer;
+}
+
+/*contactInfo + payment laptop*/
+@media only screen and (min-width: 1024px) {
+    main{
+        width:30%;
+      
+    }
+
+    .paymentBtn{
+        
+        margin-top:17em;
+        
+    }
 }
