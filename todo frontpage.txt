@@ -10,3 +10,6 @@ fix om os size
 
 sticky header
 
+intro font
+
+metodekritik
