@@ -129,6 +129,7 @@ footer {
     line-height: 2em;
     background-color: #202020;
     text-align: left;
+    color:white;
 }
 
 footer .card-text,
@@ -158,6 +159,7 @@ footer .card-title {
         margin: 0 auto;
         display: flex;
         background-color: #202020;
+
     }
 
     .card-footer .card-body {
@@ -353,3 +355,16 @@ form textarea {
 
 
 /*-----------------------------Joshua--------------------------------------------*/
+#payment{
+    width:90%;
+    margin:5em auto;
+}
+
+#payment h2{
+    text-align:center;
+border:solid;
+width:50%;
+margin:0 auto 1em auto;
+white-space: normal;
+overflow: hidden;
+}
