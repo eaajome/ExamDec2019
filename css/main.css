@@ -95,11 +95,16 @@ figure img {
 
     nav a {
         text-decoration: none;
-        color: white;
+        color: rgba(255, 255, 255, 0.7);
     }
 
     nav a:hover {
-        color: rgba(255, 255, 255, 0.5);
+        color: rgba(255, 255, 255);
+        text-decoration: none;
+    }
+
+    nav .active {
+        color: rgba(255, 255, 255);
     }
 
     .logo figure {
@@ -198,8 +203,8 @@ footer {
     color: white;
 }
 
-.card-text,
-.card-text li {
+main .card-text,
+main .card-text li {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-size: 1em;
@@ -242,6 +247,7 @@ footer {
         max-width: 1200px;
         margin: 0 auto;
         display: flex;
+        background-color: #202020;
     }
     
     
@@ -277,3 +283,78 @@ footer {
 .parallax__layer--back {
     transform: translateZ(-1px);
 }
+
+.container-xs {
+    max-width: 840px;
+    padding: 3em;
+    margin: auto;
+    line-height: 2.2em;
+    font-size: 0.9em;
+}
+.container-xs h2 {
+margin-top: 1em;
+}
+
+.broedtekst {
+    font-family: "Open Sans", sans-serif;
+}
+
+footer {
+    line-height: 2em;
+    background-color: #202020;
+    text-align: left;
+}
+
+footer .card-text,
+footer .card-text li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+}
+
+footer .card-title {
+text-align: left;
+}
+
+.findus {
+    max-width: 1200px;
+    margin: 5em auto 5em auto;
+    padding: 0 1em;
+}
+
+.findus form{
+margin-top: 2em;
+}
+
+iframe {
+    margin: 2em 0 5em 0;
+}
+
+form input {
+    font-family: "Open Sans", sans-serif;
+}
+
+form textarea {
+    font-family: "Open Sans", sans-serif;
+}
+
+.confirmed {
+    max-width: 1200px;
+    margin: 5em auto 5em auto;
+    padding: 0 1em;
+    text-align: center;
+}
+
+.confirmed h1 {
+font-size: 1.2em;
+margin: 2em;
+}
+
+.confirmed a {
+    width: 90%;
+    max-width: 300px;
+    }
+
+.confirmed img {
+    width: 60%;;
+    max-width: 200px;
+    }
