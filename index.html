@@ -15,19 +15,19 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-dark sticky-top wrapperMobile">
+    <header class="sticky-top">
+        <nav class="navbar navbar-dark wrapperMobile">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                 <img src="img/burgerMenuIcon.png" alt="">
+                 <img src="img/burgerMenuIcon.png" alt="Burger Menu Icon">
                 </button>
-                <a class="navbar-brand" href="#"><img src="img/aeggetOgSkaeggetLogoMobile.png" alt="Ægget & Skæggets Folkekøkken"></a>
-                <div class="mr-sm-2"><img src="img/shopping-cart.svg" alt=""></div>
+                <a class="navbar-brand" href="index.html"><img src="img/aeggetOgSkaeggetLogoMobile.png" alt="Ægget & Skæggets Folkekøkken Logo"></a>
+                <a href="basket.html"><div class="mr-sm-2"><img src="img/shopping-cart.svg" alt="Shopping Cart Icon"></div></a>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                   <div class="navbar-nav">
                     <a class="nav-item nav-link active" href="index.html">Bestil<span class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link" href="about.html">Om os</a>
                     <a class="nav-item nav-link" href="find.html">Find køkken</a>
-                    <a class="nav-item nav-link" href="basket.html">Disabled</a>
+                    <a class="nav-item nav-link" href="basket.html">Kurv</a>
                   </div>
                 </div>
               </nav>
@@ -35,14 +35,11 @@
 
         <div class="wrapperDesktop">
             <nav>
-
-                <a class="logo" href="">
+                <a class="logo" href="index.html">
                     <figure>
-                        <img src="img/aeggetOgSkaeggetLogo.png" alt="Ægget & Skæggets Folkekøkken">
+                        <img src="img/aeggetOgSkaeggetLogo.png" alt="Ægget & Skæggets Folkekøkken Logo">
                     </figure>
                 </a>
-
-
 
                 <div class="linksDesktop">
 
@@ -58,7 +55,7 @@
                     <a class="shopping-cart" href="basket.html">
                         Kurv
                         <figure>
-                            <img src="img/shopping-cart.svg" alt="">
+                            <img src="img/shopping-cart.svg" alt="Shopping Cart Icon">
                         </figure>
                     </a>
                 </div>
@@ -71,23 +68,24 @@
     <main>
 
             <figure class="textOverImg banner">
-                <img src="img/forsidemoerk.jpg" alt="">
+                <img src="img/forsidemoerk.jpg" alt="Banner Image">
                 <figcaption class="centered">
                         <h1 class="display-5">Ægget & Skægget</h1>
                         <h2 class="display-6">Alle retter 55,-</p>
-                        <a class="btn btn-primary btn-lg banner-btn" href="#deck1" role="button">Bestil nu</a>
+                        <a class="btn btn-lg banner-btn green-custom" href="#deck1" role="button">Bestil nu</a>
                 </figcaption>
             </figure>
+            <div id="deck1"></div>
 
     <div class="deckWrapper">
-            <div class="card-deck" id="deck1">
+            <div class="card-deck" >
                     <div class="card card-title">
                       <div class="card-body card-body-title">
                         <h4 class="card-title">Dem med Kartoffelmos</h4>
                       </div>
                     </div>
                     <div class="card">
-                      <img src="img/svinekaeber.jpg" class="card-img-top" alt="...">
+                      <img src="img/svinekaeber.jpg" class="card-img-top" alt="Svinekæber">
                       <div class="card-body">
                         <h5 class="card-title">Braiserede svinekæber</h5>
                         <p class="card-text">i mørk øl med glaserede gulerødder og selleri.</p>
@@ -95,14 +93,14 @@
                         <a class="btn btn-primary btn-sm shopping-cart add-cart" href="#" role="button">
                             Tilføj
                             <figure>
-                                <img src="img/shopping-cart.svg" alt="">
+                                <img src="img/shopping-cart.svg" alt="Shopping Cart Icon">
                             </figure>
                         </a>
 
                       </div>
                     </div>
                     <div class="card">
-                      <img src="img/Bøf-Stroganoff-medmoshehe.jpg" class="card-img-top" alt="...">
+                      <img src="img/Bøf-Stroganoff-medmoshehe.jpg" class="card-img-top" alt="Stroganoff">
                       <div class="card-body">
                         <h5 class="card-title">Bøf braise stroganoff</h5>
                         <p class="card-text">med ristede champignoner og persille.</p>
@@ -110,7 +108,7 @@
                         <a class="btn btn-primary btn-sm shopping-cart add-cart" href="#" role="button">
                                 Tilføj
                                 <figure>
-                                    <img src="img/shopping-cart.svg" alt="">
+                                    <img src="img/shopping-cart.svg" alt="Shopping Cart Icon">
                                 </figure>
                             </a>
                       </div>
@@ -126,7 +124,7 @@
                           </div>
                         </div>
                         <div class="card">
-                          <img src="img/Boller-i-karry.jpg" class="card-img-top" alt="...">
+                          <img src="img/Boller-i-karry.jpg" class="card-img-top" alt="Boller i karry">
                           <div class="card-body">
                             <h5 class="card-title">Boller i Karry</h5>
                             <p class="card-text">med æbler, rodfrugter og hjemmelavet chutney.</p>
@@ -134,14 +132,14 @@
                             <a class="btn btn-primary btn-sm shopping-cart add-cart" href="#" role="button">
                                     Tilføj
                                     <figure>
-                                        <img src="img/shopping-cart.svg" alt="">
+                                        <img src="img/shopping-cart.svg" alt="Shopping Cart Icon">
                                     </figure>
                                 </a>
                           </div>
                         </div>
 
                         <div class="card">
-                          <img src="img/coq-au-vin.jpg" class="card-img-top" alt="...">
+                          <img src="img/coq-au-vin.jpg" class="card-img-top" alt=".Coq au vin">
                           <div class="card-body">
                             <h5 class="card-title">Coq au Vin</h5>
                             <p class="card-text">Unghane baseret i hvidvin med små løg og urter.</p>
@@ -149,7 +147,7 @@
                             <a class="btn btn-primary btn-sm shopping-cart add-cart" href="#" role="button">
                                     Tilføj
                                     <figure>
-                                        <img src="img/shopping-cart.svg" alt="">
+                                        <img src="img/shopping-cart.svg" alt="Shopping Cart Icon">
                                     </figure>
                                 </a>
                           </div>
@@ -165,7 +163,7 @@
                               </div>
                             </div>
                             <div class="card">
-                              <img src="img/pastacabonara.jpg" class="card-img-top" alt="...">
+                              <img src="img/pastacabonara.jpg" class="card-img-top" alt="Carbonara">
                               <div class="card-body">
                                 <h5 class="card-title">Pasta Carbonara</h5>
                                 <p class="card-text">grove tern af stegt, røget flæsk i cremet sauce.</p>
@@ -173,14 +171,14 @@
                                 <a class="btn btn-primary btn-sm shopping-cart add-cart" href="#" role="button">
                                         Tilføj
                                         <figure>
-                                            <img src="img/shopping-cart.svg" alt="">
+                                            <img src="img/shopping-cart.svg" alt="Shopping Cart Icon">
                                         </figure>
                                     </a>
                               </div>
                             </div>
 
                             <div class="card">
-                              <img src="img/pastabolognese.jpg" class="card-img-top" alt="...">
+                              <img src="img/pastabolognese.jpg" class="card-img-top" alt="Bolognese">
                               <div class="card-body">
                                 <h5 class="card-title">Pasta Bolognese</h5>
                                 <p class="card-text">Oksekød, tomat og rodfrugter hertil friskreven parmesan.</p>
@@ -188,7 +186,7 @@
                                 <a class="btn btn-primary btn-sm shopping-cart add-cart" href="#" role="button">
                                         Tilføj
                                         <figure>
-                                            <img src="img/shopping-cart.svg" alt="">
+                                            <img src="img/shopping-cart.svg" alt="Shopping Cart Icon">
                                         </figure>
                                     </a>
                               </div>
@@ -204,7 +202,7 @@
                                   </div>
                                 </div>
                                 <div class="card">
-                                  <img src="img/svensk-poelseret.jpg" class="card-img-top" alt="...">
+                                  <img src="img/svensk-poelseret.jpg" class="card-img-top" alt="Pølseret">
                                   <div class="card-body">
                                     <h5 class="card-title">Svensk Pølseret</h5>
                                     <p class="card-text">Kartofler, pølser og den gode paprikasauce.</p>
@@ -212,14 +210,14 @@
                                     <a class="btn btn-primary btn-sm shopping-cart add-cart" href="#" role="button">
                                             Tilføj
                                             <figure>
-                                                <img src="img/shopping-cart.svg" alt="">
+                                                <img src="img/shopping-cart.svg" alt="Shopping Cart Icon">
                                             </figure>
                                         </a>
                                   </div>
                                 </div>
 
                                 <div class="card">
-                                  <img src="img/Tarteletter.jpg" class="card-img-top" alt="...">
+                                  <img src="img/Tarteletter.jpg" class="card-img-top" alt="Tarteletter">
                                   <div class="card-body">
                                     <h5 class="card-title">Tarteletter</h5>
                                     <p class="card-text">Høns i asparges serveret i sprøde, hjemmelavede skaller.</p>
@@ -227,7 +225,7 @@
                                     <a class="btn btn-primary btn-sm shopping-cart add-cart" href="#" role="button">
                                             Tilføj
                                             <figure>
-                                                <img src="img/shopping-cart.svg" alt="">
+                                                <img src="img/shopping-cart.svg" alt="Shopping Cart Icon">
                                             </figure>
                                         </a>
                                   </div>
@@ -243,7 +241,7 @@
                                       </div>
                                     </div>
                                     <div class="card">
-                                      <img src="img/kikaertegrydevegetar.jpg" class="card-img-top" alt="...">
+                                      <img src="img/kikaertegrydevegetar.jpg" class="card-img-top" alt="Kikærtegryde">
                                       <div class="card-body">
                                         <h5 class="card-title">Kikærtegryde</h5>
                                         <p class="card-text">med linser, kokosmælk og frisk persille.</p>
@@ -251,14 +249,14 @@
                                         <a class="btn btn-primary btn-sm shopping-cart add-cart" href="#" role="button">
                                                 Tilføj
                                                 <figure>
-                                                    <img src="img/shopping-cart.svg" alt="">
+                                                    <img src="img/shopping-cart.svg" alt="Shopping Cart Icon">
                                                 </figure>
                                             </a>
                                       </div>
                                     </div>
 
                                     <div class="card">
-                                            <img src="img/quinoa-salat-edamame-bonner.jpg" class="card-img-top" alt="...">
+                                            <img src="img/quinoa-salat-edamame-bonner.jpg" class="card-img-top" alt="Edamame">
                                             <div class="card-body">
                                               <h5 class="card-title">Quinoa Salat</h5>
                                               <p class="card-text">med radiser, mynte og edamame bønner.</p>
@@ -266,7 +264,7 @@
                                               <a class="btn btn-primary btn-sm shopping-cart add-cart" href="#" role="button">
                                                     Tilføj
                                                     <figure>
-                                                        <img src="img/shopping-cart.svg" alt="">
+                                                        <img src="img/shopping-cart.svg" alt="Shopping Cart Icon">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -312,6 +310,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

@@ -1,6 +1,11 @@
 * {
     padding: 0;
     margin: 0;
+    line-height: 1.6;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 @font-face {
@@ -12,6 +17,7 @@ body{
     font-family: "Intro";
     font-weight: normal;
     font-style: normal;
+
 }
 
 figure {
@@ -24,6 +30,7 @@ figure img {
 
 .broedtekst {
     font-family: "Open Sans", sans-serif;
+    line-height: 2;
 }
 
 .wrapperDesktop {
@@ -67,11 +74,17 @@ figure img {
     background-color: #514333;
 }
 
+.shopping-cart:hover{
+    background-color:#62513d;
+}
+
 .shopping-cart figure {
     width: 1.5em;
     margin: auto 0;
     margin-left: 0.5em;
 }
+
+
 
 
 /* 1024px Laptop navigation*/
@@ -137,7 +150,6 @@ footer {
 footer .card-text,
 footer .card-text li {
     font-family: 'Open Sans', sans-serif;
-    font-size: 0.9em;
 }
 
 footer .card-title {
@@ -191,12 +203,24 @@ footer .card-title {
 
 }
 
+#deck1{
+    height:1em;
+}
+
+.centered{
+    width:100%;
+}
+
 .display-5 {
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 .display-6 {
-    font-size: 1em;
+    font-size: 1.3em;
+}
+
+.btn{
+    border:none;
 }
 
 .banner-btn {
@@ -208,11 +232,16 @@ footer .card-title {
     font-size: 1em;
 }
 
-.card {
-    border: none;
+.card-body-title{
+    font-size:2em;
+}
+.card{
+    border:none;
 }
 
-
+.card-text{
+    min-height:5em;
+}
 
 .textOverImg {
     position: relative;
@@ -235,8 +264,8 @@ footer .card-title {
 }
 
 .card-deck {
-    margin-top: 2.5em;
-    margin-bottom: 2.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 hr {
@@ -270,23 +299,80 @@ main .card-text li {
     text-transform: none;
 }
 
-/* 1024px Laptop */
+/* 768px tablet */
 /* content */
 /* banner */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
+    .deckWrapper{
+    padding:1em;
+}
 
     .banner-btn {
         display: block;
-
-    }
-
-    .deckWrapper {
-        max-width: 1200px;
-        margin: 5em auto;
     }
 
     .card {
         border: lightgray 1px solid;
+    }
+
+    .card-body-title{
+        font-size:1em;
+    }
+
+    .card-title{
+        text-align:left;
+    }
+
+    .display-5 {
+        font-size: 3em;
+    }
+    
+    .display-6 {
+        font-size: 1.5em;
+    }
+
+    .banner-btn{
+        color:white;
+        width:20%;
+        margin:0 auto;
+        font-size:0.8em;
+    }
+
+    .green-custom{
+        background-color:#67af57
+    }
+}
+
+/* 1024px Laptop */
+/* content */
+/* banner */
+@media only screen and (min-width: 1024px) {
+    .deckWrapper {
+        max-width: 1200px;
+        margin: 5em auto;
+        padding:0;
+    }
+
+    .card-body-title{
+        font-size:1.3em;
+    }
+
+    .display-5 {
+        font-size: 3em;
+    }
+    
+    .display-6 {
+        font-size: 2.5em;
+    }
+
+    .banner-btn{
+        font-size:0.5em;
+        width:15%;
+    }
+
+    .banner-btn:hover{
+        background-color:#71be5f;
+        color:white;
     }
 }
 
