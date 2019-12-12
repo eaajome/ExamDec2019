@@ -627,8 +627,21 @@ form textarea {
 /*contactInfo + payment tablet*/
 @media only screen and (min-width: 768px) {
     .contactWrapper {
+        width:70%;
        padding:1em;
+       margin: 5em auto;
     }
+
+    #payment {
+      margin: 0 auto;
+    }
+
+    .paymentBtn {
+
+        margin-top:5em;
+   
+       }
+    
 
 }
 
@@ -636,12 +649,8 @@ form textarea {
 @media only screen and (min-width: 1024px) {
     .contactWrapper {
         max-width: 1200px;
-        margin: 5em auto;
+      
     }
 
-    .paymentBtn {
 
-        margin-top: 17em;
-
-    }
 }

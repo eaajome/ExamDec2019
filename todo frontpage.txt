@@ -1,5 +1,14 @@
-fix om os size
+tilføj knap click plus 1 effect
 
-sticky header
+kurv slet eller 1 + -1 vare
 
-metodekritik
+step by step
+
+done:
+index
+about
+find
+kurv
+orderconf
+payment
+contactinfo
