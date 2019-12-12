@@ -4,7 +4,7 @@
     line-height: 1.6;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -13,7 +13,7 @@ html{
     src: url("fonts/Intro.otf");
 }
 
-body{
+body {
     font-family: "Intro";
     font-weight: normal;
     font-style: normal;
@@ -74,8 +74,8 @@ figure img {
     background-color: #514333;
 }
 
-.shopping-cart:hover{
-    background-color:#62513d;
+.shopping-cart:hover {
+    background-color: #62513d;
 }
 
 .shopping-cart figure {
@@ -144,7 +144,7 @@ footer {
     line-height: 2em;
     background-color: #202020;
     text-align: left;
-    color:white;
+    color: white;
 }
 
 footer .card-text,
@@ -203,12 +203,12 @@ footer .card-title {
 
 }
 
-#deck1{
-    height:1em;
+#deck1 {
+    height: 1em;
 }
 
-.centered{
-    width:100%;
+.centered {
+    width: 100%;
 }
 
 .display-5 {
@@ -219,8 +219,8 @@ footer .card-title {
     font-size: 1.3em;
 }
 
-.btn{
-    border:none;
+.btn {
+    border: none;
 }
 
 .banner-btn {
@@ -232,15 +232,16 @@ footer .card-title {
     font-size: 1em;
 }
 
-.card-body-title{
-    font-size:2em;
-}
-.card{
-    border:none;
+.card-body-title {
+    font-size: 2em;
 }
 
-.card-text{
-    min-height:5em;
+.card {
+    border: none;
+}
+
+.card-text {
+    min-height: 5em;
 }
 
 .textOverImg {
@@ -299,13 +300,24 @@ main .card-text li {
     text-transform: none;
 }
 
+
+.green-custom {
+    background-color: #67af57;
+    color:white;
+}
+
+.green-custom:hover {
+    background-color: #71be5f;
+    color: white;
+}
+
 /* 768px tablet */
 /* content */
 /* banner */
 @media only screen and (min-width: 768px) {
-    .deckWrapper{
-    padding:1em;
-}
+    .deckWrapper {
+        padding: 1em;
+    }
 
     .banner-btn {
         display: block;
@@ -315,31 +327,27 @@ main .card-text li {
         border: lightgray 1px solid;
     }
 
-    .card-body-title{
-        font-size:1em;
+    .card-body-title {
+        font-size: 1em;
     }
 
-    .card-title{
-        text-align:left;
+    .card-title {
+        text-align: left;
     }
 
     .display-5 {
         font-size: 3em;
     }
-    
+
     .display-6 {
         font-size: 1.5em;
     }
 
-    .banner-btn{
-        color:white;
-        width:20%;
-        margin:0 auto;
-        font-size:0.8em;
-    }
-
-    .green-custom{
-        background-color:#67af57
+    .banner-btn {
+        color: white;
+        width: 20%;
+        margin: 0 auto;
+        font-size: 0.8em;
     }
 }
 
@@ -350,29 +358,24 @@ main .card-text li {
     .deckWrapper {
         max-width: 1200px;
         margin: 5em auto;
-        padding:0;
+        padding: 0;
     }
 
-    .card-body-title{
-        font-size:1.3em;
+    .card-body-title {
+        font-size: 1.3em;
     }
 
     .display-5 {
         font-size: 3em;
     }
-    
+
     .display-6 {
         font-size: 2.5em;
     }
 
-    .banner-btn{
-        font-size:0.5em;
-        width:15%;
-    }
-
-    .banner-btn:hover{
-        background-color:#71be5f;
-        color:white;
+    .banner-btn {
+        font-size: 0.5em;
+        width: 15%;
     }
 }
 
@@ -413,6 +416,16 @@ form textarea {
     font-family: "Open Sans", sans-serif;
 }
 
+.btn-return{
+    background-color:#514333;
+    color:white;
+}
+
+.btn-return:hover{
+    background-color:#62513d;
+    color:white;
+}
+
 .confirmed {
     max-width: 1200px;
     margin: 5em auto 5em auto;
@@ -437,122 +450,97 @@ form textarea {
 
 /*------------------------------------------Mike-------------------------------------------*/
 
-.card-img-top1
-{
+.card-img-top1 {
     height: 200px;
     width: 200px;
     object-fit: cover;
     border: solid;
     margin-left: 2em;
-    
+
 }
 
-.imgcontainer
-{
-   
-
-    
-}
-.imgcontainer img
-{
+.imgcontainer img {
     width: 100px;
     height: 100px;
     object-fit: cover;
-    
+
 }
 
-.textcontainer
-{
-    
+.textcontainer {
+
     width: 100%;
     text-align: left;
     padding: 0 1em;
-    
+
 }
 
-.basketWrapper h1
-{
+.basketWrapper h1 {
     margin-bottom: 1em;
     margin-top: 1em;
 }
-.basketWrapper .price
-{
+
+.basketWrapper .price {
     text-align: right;
-    margin-right: 1em;  
+    margin-right: 1em;
 }
 
 
 .pay-button {
-    
+
     justify-content: center;
     padding: 0.75em;
     background-color: #67af57;
     border: none;
     width: 90%;
     margin: 2em auto;
-    
+
 }
 
 .flex-container {
     display: flex;
     margin: 0 1em;
-  }
-  .flex-container > div p {
+}
 
-
-  }
-@media only screen and (min-width: 768px)
-{
-    .card-img-top1
-    {
+@media only screen and (min-width: 768px) {
+    .card-img-top1 {
         height: 200px;
         width: 200px;
         object-fit: cover;
         border: solid;
         margin-left: 2em;
-        
+
     }
-    
-    .imgcontainer
-    {
-       
-    
-        
-    }
-    .imgcontainer img
-    {
+
+    .imgcontainer img {
         width: 150px;
         height: 150px;
         object-fit: cover;
         border: solid;
-        
     }
-    
-    .textcontainer
-    {
-        
+
+    .textcontainer {
         width: 100%;
         text-align: left;
         padding: 0 1em;
-        
+
     }
-    .basketWrapper
-    {
+
+    .basketWrapper {
         max-width: 1200px;
         margin: 5em auto;
     }
-    .basketWrapper h1
-    {
+
+    .basketWrapper h1 {
         margin-bottom: 1em;
         margin-top: 1em;
     }
-    .basketWrapper .price
-    {
+
+    .basketWrapper .price {
         text-align: right;
-        margin-right: 1em;  
+        margin-right: 1em;
     }
-    
-    
+
+
     .pay-button {
         text-align: right;
         padding: 0.75em;
@@ -560,166 +548,100 @@ form textarea {
         border: none;
         width: 30%;
         margin: 2em 1em 2em auto;
-        
+
     }
-    .paycontainer
-    {
+
+    .paycontainer {
         width: 100%;
-        
-        
+
+
     }
-    
+
     .flex-container {
         display: flex;
         margin: 0 1em;
-      }
-      .flex-container > div p {
-    
-    
-      }
+    }
+
 }
 
-@media only screen and (min-width: 1024px)
-
-{
-    .card-img-top1
-    {
-        height: 200px;
-        width: 200px;
-        object-fit: cover;
-        border: solid;
-        margin-left: 2em;
-        
-    }
-    
-    .imgcontainer
-    {
-       
-    
-        
-    }
-    .imgcontainer img
-    {
+@media only screen and (min-width: 1024px) {
+    .imgcontainer img {
         width: 200px;
         height: 200px;
-        object-fit: cover;
-        border: solid;
-        
-    }
-    
-    .textcontainer
-    {
-        
-        width: 100%;
-        text-align: left;
-        padding: 0 1em;
-        display: flex;
-        
-        
-    }
-    
-    .textcontainer .lead:first-of-type
-    {
-margin-right: 1em;
     }
 
-    .basketWrapper
-    {
-        max-width: 1200px;
-        margin: 5em auto;
+    .textcontainer {
+        display: flex;
     }
 
-    .basketWrapper h1
-    {
-        margin-bottom: 1em;
-        margin-top: 1em;
+    .textcontainer .lead:first-of-type {
+        margin-right: 1em;
     }
-    .basketWrapper .price
-    {
-        text-align: right;
-        margin-right: 1em;  
-    }
-    
-    
-    .pay-button {
-        text-align: right;
-        padding: 0.75em;
-        background-color: #67af57;
-        border: none;
-        width: 30%;
-        margin: 2em 1em 2em auto;
-        
-    }
-    .paycontainer
-    {
-        width: 100%;
-        
-        
-    }
-    
-    .flex-container {
-        display: flex;
-        margin: 0 1em;
-      }
-      .flex-container > div p {
-    
-    
-      }
+
 }
+
 /*-----------------------------Joshua--------------------------------------------*/
-.mainCenter{
-    width:80%;
-    margin:5em auto;
+.contactWrapper {
+    padding:2em 1em;
+ }
+
+
+.location {
+    text-align: center;
 }
 
-.location{
-    text-align:center;
-}
-
-#contactInfo label{
-margin-top:2em;
+#contactInfo label {
+    margin-top: 2em;
 }
 
 
-.contactInfoBtn{
-    background-color:green;
-    margin:auto;
-    width:100%;
-    height:75px;
-    font-size:1.5em;
-    color:white;
-    cursor:pointer;
+.contactInfoBtn {
+    background-color: green;
+    margin: auto;
+    width: 100%;
+    height: 75px;
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
 }
 
-#payment h2{
-    text-align:center;
-margin:0 auto 1em auto;
+#payment h2 {
+    text-align: center;
+    margin: 0 auto 1em auto;
 }
 
-.expire{
-    display:flex;
+.expire {
+    display: flex;
 }
 
-.paymentBtn{
-    background-color:green;
-    margin-top:16em;
-    width:100%;
-    height:75px;
-    font-size:1.5em;
-    color:white;
-    cursor:pointer;
+.paymentBtn {
+    background-color: green;
+    margin-top: 12em;
+    width: 100%;
+    height: 75px;
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+}
+
+/*contactInfo + payment tablet*/
+@media only screen and (min-width: 768px) {
+    .contactWrapper {
+       padding:1em;
+    }
+
 }
 
 /*contactInfo + payment laptop*/
 @media only screen and (min-width: 1024px) {
-    .mainCenter{
-        width:30%;
-      
+    .contactWrapper {
+        max-width: 1200px;
+        margin: 5em auto;
     }
 
-    .paymentBtn{
-        
-        margin-top:17em;
-        
+    .paymentBtn {
+
+        margin-top: 17em;
+
     }
 }
