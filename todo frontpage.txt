@@ -1,7 +1,3 @@
-display 5 + 6 on laptop breakpoint
-2 + 4 on larger
-lead on both, no button on mobile
-
 jquery, button animation scroll to first deck
 
 homepage tilføj button hover change
@@ -9,7 +5,5 @@ homepage tilføj button hover change
 fix om os size
 
 sticky header
-
-intro font
 
 metodekritik
