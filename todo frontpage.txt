@@ -4,6 +4,8 @@ kurv slet eller 1 + -1 vare
 
 step by step
 
+måske gør kurv mindre så man kan se til kassen knappen
+
 done:
 index
 about
@@ -12,3 +14,7 @@ kurv
 orderconf
 payment
 contactinfo
+
+
+
+skitser
